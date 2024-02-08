@@ -10,9 +10,9 @@ import java.util.*;
 @Service
 public class LeituraArquivo {
 
-    private String mit; // 4 primeiros digitos
+    private String mit;
 
-    private String bitMap; // fatiar a string da posição 3 até a 17 e converter o resultado que está em hexadecimal em binário e em binário, começa-se a contar com indice 0
+    private String bitMap;
 
     public String processaIsoText(String message){
 
